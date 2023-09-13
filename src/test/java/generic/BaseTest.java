@@ -26,9 +26,10 @@ public class BaseTest {
 	public final String d_grid = "no";
 	public final String d_gridurl = "http://localhost:4444";
 	public final String d_browser = "chrome";
-	public final String d_appurl = "http://www.google.com";
+	public final String d_appurl = "https://demo.actitime.com";
 	public final String d_ito = "10";
 	public final String d_eto = "10";
+	public final String xl_path = "./data/actiTIME.xlsx";
 
 	public WebDriver driver;
 	public WebDriverWait wait;
@@ -78,7 +79,7 @@ public class BaseTest {
 		if (status == 2) {
 			TakesScreenshot t = (TakesScreenshot) driver;
 			File srcFile = t.getScreenshotAs(OutputType.FILE);
-			File dstFile = new File("./screenshot/" + testName + ".png");
+			File dstFile = new File("./screenshot/" + testName + ".png");// HW add date and time
 			FileUtils.copyFile(srcFile, dstFile);
 
 		}
