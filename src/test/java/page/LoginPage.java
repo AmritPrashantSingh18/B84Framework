@@ -49,4 +49,15 @@ public class LoginPage {
 		}
 	}
 
+	public boolean verifyLoginPageDisplayed(WebDriverWait wait) {
+		try {
+			wait.until(ExpectedConditions.visibilityOf(loginBTN));
+			Reporter.log("Login Page is displayed", true);
+			return true;
+		} catch (Exception e) {
+			Reporter.log("Login Page is NOT displayed", true);
+			return false;
+		}
+	}
+
 }

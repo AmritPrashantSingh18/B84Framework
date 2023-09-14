@@ -2,21 +2,21 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Home Page is displayed]]>
+      <![CDATA[Login Page is displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-09-13T20:59:07 IST" name="Default suite" finished-at="2023-09-13T20:59:30 IST" duration-ms="22584">
+  <suite started-at="2023-09-14T20:06:56 IST" name="Default suite" finished-at="2023-09-14T20:07:18 IST" duration-ms="21678">
     <groups>
       <group name="regression">
-        <method signature="ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@73a1e9a9]" name="testValidLogin" class="script.ValidLogin"/>
+        <method signature="ValidLoginLogout.testValidLogin()[pri:3, instance:script.ValidLoginLogout@73a1e9a9]" name="testValidLogin" class="script.ValidLoginLogout"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@73a1e9a9]" name="testValidLogin" class="script.ValidLogin"/>
+        <method signature="ValidLoginLogout.testValidLogin()[pri:3, instance:script.ValidLoginLogout@73a1e9a9]" name="testValidLogin" class="script.ValidLoginLogout"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-09-13T20:59:07 IST" name="Default test" finished-at="2023-09-13T20:59:30 IST" duration-ms="22584">
-      <class name="script.ValidLogin">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.ValidLogin@73a1e9a9]" started-at="2023-09-13T20:59:07 IST" name="preCondition" finished-at="2023-09-13T20:59:21 IST" duration-ms="13882" status="PASS">
+    <test started-at="2023-09-14T20:06:56 IST" name="Default test" finished-at="2023-09-14T20:07:18 IST" duration-ms="21678">
+      <class name="script.ValidLoginLogout">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.ValidLoginLogout@73a1e9a9]" started-at="2023-09-14T20:06:57 IST" name="preCondition" finished-at="2023-09-14T20:07:08 IST" duration-ms="11524" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,25 +52,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@73a1e9a9]" started-at="2023-09-13T20:59:21 IST" name="testValidLogin" finished-at="2023-09-13T20:59:30 IST" duration-ms="8498" status="PASS">
+        <test-method signature="testValidLogin()[pri:3, instance:script.ValidLoginLogout@73a1e9a9]" started-at="2023-09-14T20:07:08 IST" name="testValidLogin" finished-at="2023-09-14T20:07:18 IST" duration-ms="9746" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Home Page is displayed]]>
+              <![CDATA[Login Page is displayed]]>
             </line>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@73a1e9a9]" started-at="2023-09-13T20:59:30 IST" name="postCondition" finished-at="2023-09-13T20:59:30 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="postCondition(org.testng.ITestResult)[pri:0, instance:script.ValidLoginLogout@73a1e9a9]" started-at="2023-09-14T20:07:18 IST" name="postCondition" finished-at="2023-09-14T20:07:18 IST" duration-ms="333" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@73a1e9a9] output=Home Page is displayed]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLoginLogout.testValidLogin()[pri:3, instance:script.ValidLoginLogout@73a1e9a9] output=Login Page is displayed]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- script.ValidLogin -->
+      </class> <!-- script.ValidLoginLogout -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
